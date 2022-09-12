@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--green);
+  padding-right: 8rem;
+  padding-left: 8rem;
+}
+
+.nav--menu{
+  display: flex;
+} 
+
+.nav--icons {
+  display: flex;
+}
+
+.nav--menuitem {
+  margin: 24px;
+  color: var(--white);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav--iconsitems {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  margin: 24px;
+}
+
+.nav--logo p {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 600;
+  margin: 24px;
+}
