@@ -1,0 +1,29 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video--heading {
+  font-size: 48px;
+  width: 800px;
+  text-align: center;
+  color: var(--darktext);
+  font-family: inherit;
+  margin: 0;
+}
+
+.video--content {
+  color: var(--lighttext);
+}
+
+.video--image {
+  z-index: 10;
+}
+
+.video--greenbg {
+  background-color: var(--lightgreen);
+  height: 400px;
+  width: 100%;
+  margin-top: -200px;
+}

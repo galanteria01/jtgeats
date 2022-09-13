@@ -1,12 +1,14 @@
 .home {
   background-color: var(--green);
   height: 100vh;
+  padding-right: 12rem;
+  padding-left: 12rem;
 }
 
 .home--body {
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: var(--white);
 }
@@ -32,7 +34,7 @@
 }
 
 .home--search {
-  width: 300px;
+  width: 420px;
   height: 64px;
   font-size: 18px;
   color: #929292;
@@ -40,6 +42,7 @@
   border-top-left-radius: 12px;
   border: none;
   padding-left: 18px;
+  outline: none;
 }
 
 .home--button {
@@ -51,4 +54,9 @@
   border-bottom-right-radius: 12px;
   border-top-right-radius: 12px;
   font-size: 18px;
+  cursor: pointer;
+}
+
+.home--button:hover {
+  background-color: #ffc91a;
 }

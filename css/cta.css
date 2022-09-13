@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8rem;
+  padding: 12rem;
 }
 
 .cta--left {
@@ -33,6 +33,7 @@
   border-radius: 8px;
   font-size: 18px;
   margin: 8px;
+  outline: none;
 }
 
 .cta--textarea {
@@ -44,6 +45,8 @@
   border-radius: 8px;
   resize: none;
   margin: 8px;
+  outline: none;
+  font-family: inherit;
 }
 
 .cta--button {
@@ -59,4 +62,12 @@
 
 .cta--image {
   height: 600px;
+}
+
+.cta--input:hover {
+  border: none;
+}
+
+.cta--textarea:active {
+  border: none;
 }
