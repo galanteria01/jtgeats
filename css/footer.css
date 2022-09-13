@@ -1,0 +1,45 @@
+footer {
+  background-color: var(--green);
+  padding-right: 8rem;
+  padding-left: 8rem;
+}
+
+.footer--menu{
+  display: flex;
+} 
+
+.footer--icons {
+  display: flex;
+}
+
+.footer--menuitem {
+  margin: 24px;
+  color: var(--white);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer--iconsitems {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  margin: 24px;
+}
+
+.footer--logo p {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 600;
+  margin: 24px;
+}
+
+.footer--body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer--underline {
+  border-top: 1px solid var(--white);
+  padding-bottom: 32px;
+  padding-top: 16px;
+}

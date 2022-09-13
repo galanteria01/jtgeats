@@ -1,0 +1,62 @@
+.cta {
+  background-color: var(--background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem;
+}
+
+.cta--left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cta--heading {
+  font-size: 28px;
+  width: 400px;
+  margin: 8px;
+}
+
+.cta--content {
+  margin: 8px;
+}
+
+.cta--basicinput {
+  display: flex;
+}
+
+.cta--input {
+  width: 360px;
+  padding: 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  margin: 8px;
+}
+
+.cta--textarea {
+  width: 780px;
+  height: 160px;
+  padding: 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  resize: none;
+  margin: 8px;
+}
+
+.cta--button {
+  background-color: var(--green);
+  border: none;
+  border-radius: 8px;
+  width: min-content;
+  padding: 16px 64px;
+  font-size: 18px;
+  color: var(--white);
+  margin: 8px;
+}
+
+.cta--image {
+  height: 600px;
+}
