@@ -1,0 +1,10 @@
+.items {
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.items--heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--darktext);
+}

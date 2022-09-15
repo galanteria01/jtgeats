@@ -5,20 +5,24 @@
 }
 
 .video--heading {
-  font-size: 48px;
-  width: 800px;
+  font-size: 42px;
+  font-weight: 600;
   text-align: center;
   color: var(--darktext);
   font-family: inherit;
+  white-space: pre-line;
   margin: 0;
+  margin-bottom: 8px;
 }
 
 .video--content {
   color: var(--lighttext);
+  margin: 0;
 }
 
 .video--image {
   z-index: 10;
+  margin-top: 24px;
 }
 
 .video--greenbg {
