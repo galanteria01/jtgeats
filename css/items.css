@@ -1,6 +1,10 @@
 .items {
   padding-left: 12rem;
   padding-right: 12rem;
+  background-color: var(--background);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  position: relative
 }
 
 .items--heading {
@@ -8,3 +12,65 @@
   font-weight: 600;
   color: var(--darktext);
 }
+
+.items--carousalheading {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--darktext);
+  text-align: center;
+}
+
+.items--list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.items--image {
+  height: 300px;
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.items--card {
+  margin: 8px;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+.items--rowtop {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.items--rowbottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.items--rowbottomleft {
+  display: flex;
+  align-items: center;
+}
+
+.items--rowbottomright {
+
+}
+
+.items--addbutton {
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.items--badge {
+  position: absolute;
+  background-color: var(--yellow);
+  padding: 12px 8px;
+  border-radius: 12px;
+}
+

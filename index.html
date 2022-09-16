@@ -17,12 +17,14 @@
   <link rel="stylesheet" href="./css/video.css">
   <link rel="stylesheet" href="./css/items.css">
 
-  <!-- Google Fonts -->
+  <!-- Third Party Stylesheets -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 </head>
 
 <body>
@@ -43,6 +45,8 @@
       <img class="nav--iconsitems" src="./assets/icons/bag.svg">
     </div>
   </nav>
+
+  <!-- Home Section -->
   <section class="home">
     <div class="home--body">
       <div class="home--left">
@@ -60,13 +64,23 @@
     </div>
   </section>
 
+  <!-- Items Section -->
   <section class="items">
     <p class="items--heading">
       Home Kitchen
     </p>
     <div class="items--list"></div>
+    <p class="items--carousalheading">
+      Popular Items
+    </p>
+
+    <div class="items--carousal">
+
+    </div>
   </section>
 
+
+  <!-- Video Section -->
   <section class="video">
     <p class="video--heading">
       We are providing best
@@ -78,6 +92,7 @@
     <div class="video--greenbg"></div>
   </section>
 
+  <!-- Call to action section -->
   <section class="cta">
     <div class="cta--left">
       <p class="cta--heading">Do you have a question or want to become a seller?</p>
@@ -97,6 +112,8 @@
     </div>
   </section>
 
+
+  <!-- Footer -->
   <footer class="footer">
     <div class="footer--body">
       <div class="footer--logo">
@@ -117,6 +134,11 @@
     <div class="footer--underline"></div>
   </footer>
 
+  <!-- Internal Javascript Files -->
+  <script src="./js/items.js"></script>
+
+  <!-- Third Party Javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 </body>
 
 </html>
