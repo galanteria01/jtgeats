@@ -16,9 +16,9 @@ background-color: rgba(0,0,0,0.4);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 32px 32px;
+  margin: 8px 8px;
   border-radius: 12px;
-  padding: 200px 0px;
+  padding: 100px 0px;
 }
 
 .cart--button {
@@ -63,7 +63,7 @@ background-color: rgba(0,0,0,0.4);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 32px 32px;
+  margin: 8px 8px;
   border-radius: 12px;
   padding: 100px 0px;
 }

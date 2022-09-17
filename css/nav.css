@@ -53,20 +53,23 @@ nav {
   display: none;
 }
 
-.bar {
+.nav--bar {
   display: block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: var(--white);
 }
 
 @media screen and (max-width: 992px) {
   nav {
     flex-direction: column;
+    padding-right: 6rem;
+    padding-left: 6rem;
   }
+
 
   .nav--menu{
     flex-direction: column;
@@ -74,5 +77,35 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
-  
+  nav {
+    flex-direction: column;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .nav--menu {
+    position: fixed;
+    right: -100%;
+    z-index: 10;
+    top: 5rem;
+    flex-direction: column;
+    background-color: var(--green);
+    border-radius: 4px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  .nav--menu.active {
+    right: 1rem;
+}
+.nav--logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nav--hamburger {
+  display: block;
+  cursor: pointer;
+}
 }

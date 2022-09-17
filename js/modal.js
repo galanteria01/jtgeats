@@ -25,10 +25,3 @@ requestClose.onclick = function() {
   requestModal.style.display = 'none';
   document.body.classList.remove('lock-scroll');
 }
-
-// Event to disable modal as soon as click is observed
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
