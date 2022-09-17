@@ -60,3 +60,36 @@
 .home--button:hover {
   background-color: #ffc91a;
 }
+
+@media screen and (max-width: 992px) {
+  .home--right {
+    display: none;
+  }
+  .home--search {
+    width: 240px;
+    height: 64px;
+    font-size: 18px;
+    color: #929292;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    border: none;
+    padding-left: 18px;
+    outline: none;
+  }
+  
+  .home--button {
+    color: var(--white);
+    background-color: var(--yellow);
+    border: none;
+    height: 64px;
+    width: 100px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+}

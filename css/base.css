@@ -19,3 +19,7 @@ body {
   color: var(--green)!important;
   font-size: 32px!important;
 }
+
+.lock-scroll {
+  overflow: hidden;
+}

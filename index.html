@@ -63,7 +63,7 @@
           <button class="home--button">Search</button>
         </div>
       </div>
-      <div class="home-right">
+      <div class="home--right">
         <img src="./assets/svgs/cuatechef.svg">
       </div>
     </div>
@@ -82,7 +82,7 @@
     <div class="items--carousal">
     </div>
 
-    <button class="items--requestbutton">
+    <button id="items--requestopener" class="items--requestbutton">
       Request a Dish
     </button>
 
@@ -155,10 +155,17 @@
   <!-- Request Modal -->
   <div class="request">
     <div class="request--content">
-      <img src="./assets/svgs/shopping.svg">
-      <p>Cart is Empty</p>
-      <p>Add some items to the cart to checkout</p>
-      <button>Back to Menu</button>
+      <p class="request--heading">Request a Dish</p>
+      <div class="request--inputs">
+        <label class="request--label" for="request--name">Name*</label>
+        <input class="request--name request--input" placeholder="Enter name of the dish">
+        <label class="request--label" for="request--name">Upload an image*</label>
+        <input class="request--image request--input" placeholder="Paste a URL">
+      </div>
+      <div class="request--buttons">
+        <button class="request--buttonsleft">Cancel</button>
+        <button class="request--buttonsright">Submit Request</button>
+      </div>
     </div>
   </div>
 

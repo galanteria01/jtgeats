@@ -71,3 +71,38 @@
 .cta--textarea:active {
   border: none;
 }
+
+@media screen and (max-width: 992px) {
+  .cta--right {
+    display: none;
+  }
+  .cta {
+    padding: 6rem;
+  }
+  .cta--input {
+    width: 200px;
+    padding: 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin: 8px;
+    outline: none;
+  }
+  
+  .cta--textarea {
+    width: 460px;
+    height: 160px;
+    padding: 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    margin: 8px;
+    outline: none;
+    font-family: inherit;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+}

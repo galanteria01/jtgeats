@@ -31,3 +31,21 @@
   width: 100%;
   margin-top: -200px;
 }
+
+@media screen and (max-width: 992px) {
+  .video--image {
+    z-index: 10;
+    margin-top: 24px;
+    width: 400px;
+  }
+  .video--greenbg {
+    background-color: var(--lightgreen);
+    height: 200px;
+    width: 100%;
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+}

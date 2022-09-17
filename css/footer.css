@@ -43,3 +43,20 @@ footer {
   padding-bottom: 32px;
   padding-top: 16px;
 }
+
+@media screen and (max-width: 992px) {
+  footer {
+    background-color: var(--green);
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+  .footer--body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+}
