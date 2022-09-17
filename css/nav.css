@@ -35,3 +35,8 @@ nav {
   font-weight: 600;
   margin: 24px;
 }
+
+.nav--buttons {
+  background-color: transparent;
+  border: none;
+}

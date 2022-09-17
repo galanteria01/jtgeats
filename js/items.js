@@ -1,4 +1,5 @@
 let list = document.querySelector('.items--list')
+let carousal = document.querySelector('.items--carousal');
 let count = 16;
 
 const listOfFoodItems = [
@@ -111,6 +112,59 @@ const listOfFoodItems = [
     discount: ""
   },
 ]
+
+listOfFoodItems.forEach((item) => {
+  // Declaring the elements
+  let element = document.createElement('div');
+  let img = document.createElement('img');
+  let title = document.createElement('p');
+  let rating = document.createElement('div');
+  let time = document.createElement('p');
+  let price = document.createElement('p');
+  let add = document.createElement('button');
+  let rowTop = document.createElement('div');
+  let rowBottom = document.createElement('div');
+  let rowBottomLeft = document.createElement('div');
+  let rowBottomRight = document.createElement('div');
+  let badge = document.createElement('p');
+  let icon = document.createElement('img')
+  let star = document.createElement('img')
+
+  // Providing the connection between the elements
+  element.appendChild(img);
+  element.appendChild(rowTop);
+  element.appendChild(rowBottom);
+  if(item.discount) element.appendChild(badge);
+  rowTop.appendChild(title);
+  rowTop.appendChild(price);
+  rowBottom.appendChild(rowBottomLeft);
+  rowBottom.appendChild(rowBottomRight);
+  rowBottomLeft.appendChild(rating);
+  rowBottomLeft.appendChild(time);
+  rowBottomRight.appendChild(add);
+  add.appendChild(icon);
+
+  // Assigning the values based on object data
+  title.innerHTML = item.title;
+  price.innerHTML = item.price;
+  img.src = item.image;
+  rating.innerHTML = item.rating;
+  time.innerHTML = item.time;
+  badge.innerHTML = item.discount
+  icon.src = "./assets/icons/add.svg";
+
+  // Assigning the specific classes for the elements
+  element.classList.add('items--card')
+  img.classList.add('items--image')
+  rowTop.classList.add('items--rowtop');
+  rowBottom.classList.add('items--rowbottom')
+  rowBottomLeft.classList.add('items--rowbottomleft');
+  rowBottomRight.classList.add('items--rowbottomright');
+  add.classList.add('items--addbutton')
+  badge.classList.add('items--badge')
+
+  carousal.appendChild(element);
+})
 
 listOfFoodItems.forEach((item) => {
   // Declaring the elements
