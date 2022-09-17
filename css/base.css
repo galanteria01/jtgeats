@@ -17,9 +17,15 @@ body {
 
 .slick-arrow::before {
   color: var(--green)!important;
-  font-size: 32px!important;
+  font-size: 64px!important;
 }
 
 .lock-scroll {
   overflow: hidden;
+}
+
+.slick-list {
+  align-self: center;
+  width: 80%;
+  padding: 0!important;
 }

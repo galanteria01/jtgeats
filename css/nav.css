@@ -22,11 +22,19 @@ nav {
   text-decoration: none;
 }
 
+.nav--menuitem:hover {
+  color: var(--lighttext);
+}
+
 .nav--iconsitems {
   height: 20px;
   width: 20px;
   cursor: pointer;
   margin: 24px;
+}
+
+.nav--iconsitems:hover {
+  fill: var(--lighttext);
 }
 
 .nav--logo p {

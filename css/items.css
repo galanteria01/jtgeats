@@ -79,6 +79,9 @@
 
 .items--carousal {
   width: 100%;
+  display: flex!important;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .items--requestbutton {
@@ -90,6 +93,35 @@
   font-size: 16px;
   align-self: center;
   cursor: pointer;
+  margin-top: 24px;
+}
+
+.items--time {
+  background-color: #F7F8FA;
+  padding: 4px;
+  border-radius: 8px;
+  border-left: 4px solid #bebebe;
+  border-right: 4px solid #bebebe;
+  margin: 0;
+}
+
+.items--rating {
+  background-color: #F7F8FA;
+  padding: 4px;
+  border-radius: 8px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items--timecontainer {
+  border-radius: 8px;
+  margin-left: 8px;
+}
+
+.items--star {
+  margin-right: 2px;
 }
 
 @media screen and (max-width: 992px) {
@@ -111,5 +143,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  
+  .items--list {
+    grid-template-columns: 1fr;
+  }
 }
