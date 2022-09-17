@@ -58,5 +58,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  
+  footer {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .footer--menuitem {
+    margin: 12px;
+    color: var(--white);
+    font-size: 18px;
+    text-decoration: none;
+  }
 }

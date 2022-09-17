@@ -49,10 +49,28 @@ nav {
   border: none;
 }
 
+.nav--hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
 @media screen and (max-width: 992px) {
   nav {
     flex-direction: column;
   }
+
+  .nav--menu{
+    flex-direction: column;
+  } 
 }
 
 @media screen and (max-width: 600px) {

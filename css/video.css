@@ -18,6 +18,7 @@
 .video--content {
   color: var(--lighttext);
   margin: 0;
+  text-align: center;
 }
 
 .video--image {
@@ -47,5 +48,27 @@
 }
 
 @media screen and (max-width: 600px) {
+  .video {
+    width: 100%;
+  }
+  .video--image {
+    z-index: 10;
+    margin-top: 24px;
+    width: 300px;
+  }
+  .video--greenbg {
+    background-color: var(--lightgreen);
+    height: 150px;
+    width: 100%;
+    margin-top: -60px;
+  }
+  .video--heading {
+    font-size: 32px;
+  }
   
+  .video--content {
+    color: var(--lighttext);
+    margin: 0;
+    text-align: center;
+  }
 }

@@ -105,5 +105,33 @@
 }
 
 @media screen and (max-width: 600px) {
+  .cta {
+    padding: 1rem;
+  }
+  .cta--input {
+    width: 100px;
+    padding: 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    margin: 8px;
+    outline: none;
+  }
+
+  .cta--left {
+    width: 100%;
+  }
   
+  .cta--textarea {
+    width: 260px;
+    height: 160px;
+    padding: 24px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    margin: 8px;
+    outline: none;
+    font-family: inherit;
+  }
 }

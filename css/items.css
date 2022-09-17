@@ -44,13 +44,14 @@
 .items--rowtop {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 4px 16px;
 }
 
 .items--rowbottom {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  align-items: center;
+  padding: 4px 16px;
 }
 
 .items--rowbottomleft {
@@ -145,5 +146,22 @@
 @media screen and (max-width: 600px) {
   .items--list {
     grid-template-columns: 1fr;
+  }
+  .items {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: var(--background);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .items--image {
+    height: 160px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
   }
 }
