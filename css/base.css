@@ -25,15 +25,29 @@ body {
 
 /* Overriding the default slick design */
 
+.slick-arrow {
+  height: 64px!important;
+  width: 64px!important;
+}
+
 .slick-arrow::before {
   color: var(--green)!important;
   font-size: 64px!important;
+  
 }
 
 .slick-list {
   align-self: center;
-  width: 80%;
+  width: 75%;
   padding: 0!important;
+}
+
+.slick-next {
+  right: 0!important;
+}
+
+.slick-prev {
+  left: 0!important;
 }
 
 @media screen and (max-width: 992px) {
@@ -42,7 +56,7 @@ body {
     font-size: 32px!important;
   }
   .slick-prev {
-    left: 8px!important;
+    left: 32px!important;
   }
   .slick-next {
     right: 8px!important;

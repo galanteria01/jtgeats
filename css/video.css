@@ -15,6 +15,17 @@
   margin-bottom: 8px;
 }
 
+.video--container {
+  z-index: 10;
+  position: relative;
+}
+
+.video--controls {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
 .video--content {
   color: var(--lighttext);
   margin: 0;
@@ -24,6 +35,8 @@
 .video--image {
   z-index: 10;
   margin-top: 24px;
+  height: 400px;
+  width: 600px;
 }
 
 .video--greenbg {
@@ -33,11 +46,27 @@
   margin-top: -200px;
 }
 
+.video--playpause {
+  background-color: var(--green);
+  border: none;
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+}
+
+.video--playpause > img {
+  height: 24px;
+  width: 24px;
+  color: var(--white);
+}
+
 @media screen and (max-width: 992px) {
   .video--image {
     z-index: 10;
     margin-top: 24px;
     width: 400px;
+    height: 300px;
   }
   .video--greenbg {
     background-color: var(--lightgreen);
@@ -55,6 +84,7 @@
     z-index: 10;
     margin-top: 24px;
     width: 300px;
+    height: 200px;
   }
   .video--greenbg {
     background-color: var(--lightgreen);
